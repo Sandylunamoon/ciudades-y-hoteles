@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MODO OSCURO</title>
+	<meta name="viewport" content="width-device-width, initial-scale-1">
+	<link rel="stylesheet" type="text/css" href="comp.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli:400|Oswald:700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="theme-switch-wrapper">
+		<label class="theme-switch" for="checkbox">
+			<input type="checkbox" id="checkbox"/>
+			<div class="slider round"></div>
+</div>
+<section>
+	<div class="heading">
+		<br>
+		<br>
+		<br>
+		<h1>PLAYAS <b>(Recomendaciones)</b></h1>
+		<p>Para que puedas ver algunas recomendaciones de playas que puedes vistar, activa el modo oscuro y encontrás la sorpresa!</p>
+		<a href="5.html" class="btn-primary"> ENTRAR <b>AHORA</b></a>
+	</div>
+</section>
+<script>
+	const colorSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+	function switchColor(e){
+		if (e.target.checked) {
+			document.documentElement.setAttribute('data-theme','dark');
+		}
+		else {
+			document.documentElement.setAttribute('data-theme','light');
+		}
+	}	
+colorSwitch.addEventListener('change',switchColor, false);
+</script>
+</body>
+</html>

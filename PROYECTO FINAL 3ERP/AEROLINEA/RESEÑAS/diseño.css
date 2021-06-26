@@ -1,0 +1,117 @@
+	body{
+		background:#9C9C9C;
+	}
+
+p{
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+}
+
+h1{
+  text-align: center;
+  color: #303030;
+  font-family: Comic Sans MS;
+}
+
+a{
+  text-decoration: none;
+  text-align: right;
+  float: right;
+  font-size: 25px;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 150px;
+}
+
+	button {
+		width: 50%;
+		height: 70px;
+		background:#F5F5F1;
+		color: gray;
+		font-size: 18px;
+		padding: 8px;
+		border-radius: 15px;
+		text-align: center;
+		border:1px;
+		margin:auto;
+    display: block;
+    margin: auto;
+	}
+
+#click{
+	display: block;
+	margin-left: 35%;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+.primero{
+	
+}
+
+
+div.uno {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+div.dos {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+div.tres {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+div.cuatro {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+div.cinco {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+div.seis {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
